@@ -21,6 +21,7 @@ public class IfStatementTest {
         int expected = 0;
         int actual = is.ifExample(bool, x, y);
         Assert.assertEquals(expected, actual);
+        System.out.println(x);
     }
     /**
      * If bool is false, then ifExample is expected to return inputB.
@@ -33,5 +34,6 @@ public class IfStatementTest {
         int expected = 1;
         int actual = is.ifExample(bool, x, y);
         Assert.assertEquals(expected, actual);
+        System.out.println(y);
     }
 }
