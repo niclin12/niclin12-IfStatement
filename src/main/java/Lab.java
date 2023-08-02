@@ -22,7 +22,7 @@ public class Lab {
     public int ifExample(boolean bool, int x, int y){
         if ( bool == true)
             return x=0;
-        else if ( bool == false); {return y=1;}
+        else if ( bool == false) ; {return y=1;}
     
         
     
